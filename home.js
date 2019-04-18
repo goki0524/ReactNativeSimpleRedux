@@ -26,7 +26,7 @@ export class Home extends Component {
     }
   }
 
-const mapStateProps = state => ({
+const mapStateToProps = state => ({
   name: state.user.name
 })
 
