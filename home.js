@@ -1,6 +1,6 @@
 // home.js
 import React, { Component } from 'react'
-import { View, Text, Button } from 'react-native'
+import { View, Button, Text } from 'react-native'
 import { connect } from 'react-redux'
 import { setName, deleteName } from './redux'
 import { store } from './redux'
